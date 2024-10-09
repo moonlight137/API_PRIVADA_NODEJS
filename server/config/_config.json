@@ -1,0 +1,137 @@
+{
+    "prod": {
+        "port": 3000,
+        "espacioVacio": "                                                            ",
+        "espacioRelleno": "_RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+        "idCT": "CTYUPI",
+        "rutas": {
+            "CT": {
+                "remision": {
+                    "filenameTest": "Comp01A_HMO0005_TEST",
+                    "prefijo": "Comp",
+                    "in": "/datos/webpage/Compras/in/",
+                    "out": "/datos/webpage/Compras/out/",
+                    "error": "/datos/api_privada_produccion/server/archivos/remision/"
+                },
+                "pedido": {
+                    "filenameTest": "PedW01A_HMO0005_TEST",
+                    "prefijo": "PedW",
+                    "in": "/datos/webpage/Pedidos/in/",
+                    "out": "/datos/webpage/Pedidos/out/",
+                    "error": "/datos/macropro_api_privada/server/archivos/pedido/"
+                },
+                "pedidoCopia": {
+                    "filenameTest": "PedW01A_HMO0005_TEST",
+                    "prefijo": "PedW",
+                    "in": "/datos/webpageQ/in/",
+                    "out": "/datos/webpageQ/out/",
+                    "error": "/datos/macropro_api_privada/server/archivos/"
+                },
+                "factura": {
+                    "filenameTest": "Fact01A_HMO0005_TEST",
+                    "prefijo": "Fact",
+                    "in": "/datos/webpage/Facturacion/in/",
+                    "out": "/datos/webpage/Facturacion/out/",
+                    "error": "/datos/api_privada_produccion/server/archivos/facturacion/"
+                },
+                "timbre": {
+                    "filenameTest": "Timb01A_HMO0005_TEST",
+                    "prefijo": "Timb",
+                    "in": "/datos/Timbrado/in/",
+                    "out": "/datos/Timbrado/out/",
+                    "error": "/datos/macropro_api_privada/server/archivos/facturacion/"
+                }
+            },
+            "HMO1889": {
+                "remision": {
+                    "filenameTest": "Comp01A_HMO1889_TEST",
+                    "prefijo": "Comp",
+                    "in": "/datos/webpageOM/Compras/in/",
+                    "out": "/datos/webpageOM/Compras/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                },
+                "facturaProveedor": {
+                    "filenameTest": "Alta_Fact01A_CT01_TEST",
+                    "prefijo": "Alta",
+                    "in": "/datos/webpageOM/Compras/Alta/in/",
+                    "out": "/datos/webpageOM/Compras/Alta/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                },
+                "pedido": {
+                    "filenameTest": "PedW01A_HMO1889_TEST",
+                    "prefijo": "PedW",
+                    "in": "/datos/webpageOM/Pedidos/in/",
+                    "out": "/datos/webpageOM/Pedidos/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                },
+                "factura": {
+                    "filenameTest": "Fact01A_HMO1889_TEST",
+                    "prefijo": "Fact",
+                    "in": "/datos/webpageOM/Facturacion/in/",
+                    "out": "/datos/webpageOM/Facturacion/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                }
+            },
+            "HMO4279": {
+                "remision": {
+                    "filenameTest": "Comp01A_HMO1889_TEST",
+                    "prefijo": "Comp",
+                    "in": "/datos/webpageOM/Compras/in/",
+                    "out": "/datos/webpageOM/Compras/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                },
+                "facturaProveedor": {
+                    "filenameTest": "Alta_Fact01A_CT01_TEST",
+                    "prefijo": "Alta",
+                    "in": "/datos/webpageOM/Compras/Alta/in/",
+                    "out": "/datos/webpageOM/Compras/Alta/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                },
+                "pedido": {
+                    "filenameTest": "PedW01A_HMO1889_TEST",
+                    "prefijo": "PedW",
+                    "in": "/datos/webpageOM/Pedidos/in/",
+                    "out": "/datos/webpageOM/Pedidos/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                },
+                "factura": {
+                    "filenameTest": "Fact01A_HMO1889_TEST",
+                    "prefijo": "Fact",
+                    "in": "/datos/webpageOM/Facturacion/in/",
+                    "out": "/datos/webpageOM/Facturacion/out/",
+                    "error": "/datos/webpageOM/Errores/"
+                }
+            }
+        },
+        "interface": {
+            "pedido1": {
+                "filename": "PedW01A_HMO0005_INT1",
+                "prefijo": "PedW",
+                "in": "//10.10.251.200/webpage/Pedidos/in/",
+                "out": "//10.10.251.200/webpage/Pedidos/out/",
+                "error": "/datos/desarrollos/ambiente_pruebas/api_privada/server/archivos/"
+            },
+            "pedido2": {
+                "filename": "PedW01A_HMO0005_INT2",
+                "prefijo": "PedW",
+                "in": "//10.10.251.200/webpage/Pedidos2/in/",
+                "out": "//10.10.251.200/webpage/Pedidos2/out/",
+                "error": "/datos/desarrollos/ambiente_pruebas/api_privada/server/archivos/"
+            },
+            "pedido3": {
+                "filename": "PedW01A_HMO0005_INT3",
+                "prefijo": "PedW",
+                "in": "//10.10.251.200/webpage/Pedidos3/in/",
+                "out": "//10.10.251.200/webpage/Pedidos3/out/",
+                "error": "/datos/desarrollos/ambiente_pruebas/api_privada/server/archivos/"
+            },
+            "pedido4": {
+                "filename": "PedW01A_HMO0005_INT4",
+                "prefijo": "PedW",
+                "in": "//10.10.251.200/webpage/Pedidos4/in/",
+                "out": "//10.10.251.200/webpage/Pedidos4/out/",
+                "error": "/datos/desarrollos/ambiente_pruebas/api_privada/server/archivos/"
+            }
+        }
+    }
+}
